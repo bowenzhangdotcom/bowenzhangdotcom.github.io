@@ -1,4 +1,4 @@
-import uuidv1 from 'uuid/v1';
+import { v1 as uuidv1 } from 'uuid';
 
 // HEAD DATA
 export const headData = {
@@ -26,23 +26,23 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  // {
+  //   id: uuidv1(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio',
+  // },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
+    img: 'nice-stocks-logo.jpg',
     title: 'NiceStocks.Info',
     info: 'Compares stock price movement to discusssions on reddit',
     info2: 'Built with MongoDB, Express, React, Node',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'www.nicestocks.info',
+    repo: 'https://github.com/bowenzhangdotcom',
   },
 ];
 
