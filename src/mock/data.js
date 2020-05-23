@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `Currently work at Yext doing things. Previously graduated from Cornell and did consulting.`,
-  paragraphTwo: `Found that coding is pretty neat so I'm doing that right now`,
-  paragraphThree: `I also enjoy poker, electronic music, and stuff picking things up and putting them down`,
+  paragraphOne: `I'm a 2017 Cornell grad & former consultant currently working at Yext in the UPWARD rotational program.`,
+  paragraphTwo: `I recently discovered the beauty of programming and am glad you've taken the time to take a look at my personal projects!`,
+  paragraphThree: `Outside of work I also enjoy poker, electronic music, Super Smash Bros. and getting better at picking heavy things up and putting them down`,
   resume: 'https://www.linkedin.com/in/bowenzhangdotcom/',
 };
 
@@ -38,9 +38,10 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'nice-stocks-logo.jpg',
-    title: 'NiceStocks.Info',
-    info: 'Compares stock price movement to discusssions on reddit',
-    info2: 'Built with MongoDB, Express, React, Node',
+    title: 'NiceStocks.Info - WIP',
+    info:
+      'Tracks comparisons of stock price changes to discussions on investing-related subreddits',
+    info2: 'Currently building with React',
     url: 'www.nicestocks.info',
     repo: 'https://github.com/bowenzhangdotcom',
   },
