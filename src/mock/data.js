@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile1.jpg',
   paragraphOne: `I'm a 2017 Cornell grad with a B.S. in Finance & Strategy. As a former management consultant with ZS Associates, I decided to pursue my passion for technology and am currently working at Yext in the UPWARD rotational program.`,
   paragraphTwo: `I'm a self-taught full stack developer with experience in Java, Python, and Javascript.`,
   paragraphThree: `Outside of programming, I also enjoy poker, electronic music, Super Smash Bros. and getting better at picking heavy things up and putting them down`,
